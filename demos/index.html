@@ -34,6 +34,11 @@
 
     'use strict';
 
+    if (window.location.protocol == 'file:') {
+      alert('To test this demo properly please use a local server such as XAMPP or WAMP.');
+    }
+
+
     var combineImages = new CombineImages(),
         $export = document.getElementById('export'),
         $result = document.getElementById('result');
