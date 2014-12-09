@@ -31,3 +31,8 @@ Combine images with canvas
 - `dy` - The Y coordinate in the destination canvas at which to place the top-left corner of the source image.
 - `dWidth` - The width to draw the image in the destination canvas. This allows scaling of the drawn image. If not specified, the image is not scaled in width when drawn.
 - `dHeight` - The height to draw the image in the destination canvas. This allows scaling of the drawn image. If not specified, the image is not scaled in height when drawn.
+
+
+### Example
+
+Download this project to your computer, then see `demos` folder :).
