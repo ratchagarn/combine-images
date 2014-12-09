@@ -35,4 +35,4 @@ Combine images with canvas
 
 ### Example
 
-Download this project to your computer, then see `demos` folder :).
+Download this project to your computer, then see `demos` folder :)
