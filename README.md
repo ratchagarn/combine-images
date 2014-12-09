@@ -4,10 +4,12 @@ combine-images
 
 ## Version 0.1.0
 
+Combine images with canvas
+
 ### Change log
 
-
-Combine images with canvas
+### 0.1.0
+- Init project.
 
 
 ### Method
