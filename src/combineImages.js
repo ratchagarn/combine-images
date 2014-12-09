@@ -26,7 +26,7 @@ function CombineImages(id) {
   // document.body.appendChild(canvas);
 
   this.canvas = canvas;
-  this.images_sources = [];
+  this.image_sources = [];
 }
 
 
@@ -44,7 +44,7 @@ function CombineImages(id) {
  */
 
 CombineImages.prototype.addSources = function(images) {
-  this.images_source = images;
+  this.image_sources = images;
   return this;
 }
 
@@ -105,9 +105,9 @@ CombineImages.prototype.toDataURL = function(callback) {
       }
 
       // check for go next
-      if (that.images_source[pointer + 1]) {
+      if (that.image_sources[pointer + 1]) {
         ++pointer;
-        _toDataURL( that.images_source[pointer] );
+        _toDataURL( that.image_sources[pointer] );
       }
       else {
         var dataURL = canvas.toDataURL();
@@ -116,8 +116,8 @@ CombineImages.prototype.toDataURL = function(callback) {
     };
   }
 
-  if (this.images_source[pointer]) {
-    _toDataURL( this.images_source[pointer] );
+  if (this.image_sources[pointer]) {
+    _toDataURL( this.image_sources[pointer] );
   }
 }
 
